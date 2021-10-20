@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #333;
+    --background-color: rgb(183, 177, 235);
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+.grid-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.grid-2 {
+    width: 49%;
+    margin-left: 6px;
+    margin-right: 6px; 
+}
+.grid-3 {
+    width: 33.33%;
+    margin-left: 6px;
+    margin-right: 6px; 
+}
+.grid-4 {
+    width: 24%;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.btn {
+    padding: 2px 4px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 1px #444;
+    min-width: 124px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.open{
+    display: block;
+    animation: fadeIn ease-in 0.2s;
+}
+.close{
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }   
+    
+}
+@keyframes appear {
+    from {
+        transform: scale(100%);
+    }
+    to {
+        transform: scale(250%);
+    } 
+}
