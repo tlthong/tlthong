@@ -1,2 +1,2 @@
 ### Hi there 👋
-## Nothing here! \(^_^)/
+## Nothing here! \\(^_^)/
